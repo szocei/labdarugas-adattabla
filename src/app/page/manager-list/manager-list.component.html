@@ -1,0 +1,50 @@
+<div class="container-fluid">
+    <div class="row">
+        <table class="table table-striped mx-auto ">
+            <thead>
+
+                <tr>
+                    <th>#</th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Nationality</th>
+                    <th>Age</th>
+                    <th>TeamID</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let manager of managerlist$ |async ">
+                    <td>{{manager.id}}</td>
+                    <td>{{manager.first_name}}</td>
+                    <td>{{manager.last_name}}</td>
+                    <td>{{manager.email}}</td>
+                    <td>{{manager.gender}}</td>
+                    <td>{{manager.nationality}}</td>
+                    <td>{{manager.age}}</td>
+                    <td>{{manager.teamid}}</td>
+                    <td>
+                        <div class="btn-group">
+                            <button [routerLink]="[manager.id]" class="btn btn-info">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                            <button (click)="onRemove(manager)" class="btn btn-danger">
+
+                            </button>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+
+                </tr>
+            </tbody>
+
+
+
+
+        </table>
+    </div>
+</div>

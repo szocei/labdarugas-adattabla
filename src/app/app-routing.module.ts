@@ -26,7 +26,7 @@ component:TeamListComponent
     component:ManagerListComponent
   },
    {
-path: 'player/id',
+path: 'player/:id',
 component:EditPlayerComponent
   },
   {

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PlayerListComponent } from './page/player-list/player-list.component';
@@ -11,7 +12,8 @@ import { EditPlayerComponent } from './page/edit-player/edit-player.component';
 import { EditManagerComponent } from './page/edit-manager/edit-manager.component';
 import { NavComponent } from './common/nav/nav.component';
 import { DashboardComponent } from './page/dashboard/dashboard.component';
-import { HttpClientModule} from '@angular/common/http'
+import { HttpClientModule} from '@angular/common/http';
+import { SorterPipe } from './pipe/sorter.pipe'
 
 @NgModule({
   declarations: [
@@ -23,12 +25,13 @@ import { HttpClientModule} from '@angular/common/http'
     EditPlayerComponent,
     EditManagerComponent,
     NavComponent,
-    DashboardComponent
+    DashboardComponent,
+    SorterPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    
+    FormsModule,
     HttpClientModule
   ],
   providers: [],

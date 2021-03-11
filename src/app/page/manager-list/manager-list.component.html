@@ -5,19 +5,19 @@
             <thead>
 
                 <tr>
-                    <th>#</th>
-                    <th>FirstName</th>
-                    <th>LastName</th>
-                    <th>Email</th>
-                    <th>Gender</th>
-                    <th>Nationality</th>
-                    <th>Age</th>
-                    <th>TeamID</th>
+                    <th (click)="onColumnSelect('id')">#</th>
+                    <th (click)="onColumnSelect('first_name')">FirstName</th>
+                    <th (click)="onColumnSelect('last_name')">LastName</th>
+                    <th (click)="onColumnSelect('email')">Email</th>
+                    <th (click)="onColumnSelect('gender')">Gender</th>
+                    <th (click)="onColumnSelect('nationality')">Nationality</th>
+                    <th (click)="onColumnSelect('age')">Age</th>
+                    <th (click)="onColumnSelect('teamid')">TeamID</th>
                     <th></th>
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let manager of managerlist$ |async ">
+                <tr *ngFor="let manager of managerlist$ |async | sorter:columnKey:irany ">
                     <td>{{manager.id}}</td>
                     <td>{{manager.first_name}}</td>
                     <td>{{manager.last_name}}</td>

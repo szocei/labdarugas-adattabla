@@ -39,8 +39,14 @@ export class ManagerListComponent implements OnInit {
     private managerService: ManagerService,
     private router:Router,
   ) { }
+  
+ irany:boolean=false;
+   columnKey:string='';
 
-   
+onColumnSelect(key:string):void{
+  this.columnKey=key;
+  this.irany=!this.irany;
+}
 
   ngOnInit(): void {
     this.managerService.getAll();

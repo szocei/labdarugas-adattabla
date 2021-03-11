@@ -1,1 +1,74 @@
-<p>player-list works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="mx-auto py-5">Player List</h1>
+        <table class="table table-striped mx-auto ">
+            <thead>
+                <tr>
+                    <th (click)="onColumnSelect('id')">#</th>
+                    <th (click)="onColumnSelect('first_name')">FirstName</th>
+                    <th (click)="onColumnSelect('last_name')">LastName</th>
+                    <th (click)="onColumnSelect('szulido')">Születés</th>
+                    <th (click)="onColumnSelect('nationality')">Nationality</th>
+                    <th (click)="onColumnSelect('age')">Age</th>
+                    <th (click)="onColumnSelect('posztId')">posztId</th>
+                    <th (click)="onColumnSelect('teamId')">teamId</th>
+                    <th (click)="onColumnSelect('jatszottMeccs')">Meccsek</th>
+                    <th (click)="onColumnSelect('rugottGol')">Gólok</th>
+                    <th (click)="onColumnSelect('kiallitas')">Kiállítások</th>
+                    <th (click)="onColumnSelect('sargaLap')">Sárgalap</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let player of playerlist$ |async | sorter:columnKey:irany ">
+                    <td>{{player.id}}</td>
+                    <td>{{player.first_name}}</td>
+                    <td>{{player.last_name}}</td>
+                    <td>{{player.szulido}}</td>
+                    <td>{{player.nationality}}</td>
+                    <td>{{player.age}}</td>
+                    <td>{{player.posztId}}</td>
+                    <td>{{player.teamId}}</td>
+                    <td>{{player.jatszottMeccs}}</td>
+                    <td>{{player.rugottGol}}</td>
+                    <td>{{player.kiallitas}}</td>
+                    <td>{{player.sargaLap}}</td>
+                    <td>
+                        <div class="btn-group">
+                            <button [routerLink]="[player.id]" class="btn btn-info">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                            <button (click)="onRemove(player)" class="btn btn-danger">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr class="bg-info">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Játékosok száma:</td>
+                    <td>Csapatnál:</td>
+                    <td>Átlagéletkor:</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr class="bg-info">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>{{playerCount}} fő</td>
+                    <td>{{teamsCount}} fő</td>
+                    <td>{{summa/playerCount}} év</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

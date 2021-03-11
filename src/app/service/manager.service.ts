@@ -22,6 +22,10 @@ apiUrl:string=`http://localhost:3000/managers`;
        data => this.list$.next(data)
      )
     }
+
+  getAllsum():Observable<Manager[]> {
+return this.http.get<Manager[]>(this.apiUrl);
+  }  
  
   get(id: number | string): Observable<Manager> {
    id = typeof id === 'string' ? parseInt(id, 10) : id;

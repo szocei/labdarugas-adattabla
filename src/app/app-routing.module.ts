@@ -11,36 +11,36 @@ import { EditManagerComponent } from './page/edit-manager/edit-manager.component
 const routes: Routes = [
   {
     path: '',
-    component:DashboardComponent
+    component:DashboardComponent,
   },
   {
 path: 'player',
-component:PlayerListComponent
+component:PlayerListComponent,
   },
   {
 path:'team',
-component:TeamListComponent
+component:TeamListComponent,
   },
   {
     path:'manager',
-    component:ManagerListComponent
+    component:ManagerListComponent,
   },
    {
 path: 'player/:id',
-component:EditPlayerComponent
+component:EditPlayerComponent,
   },
   {
 path:'team/:id',
-component:EditTeamComponent
+component:EditTeamComponent,
   },
   {
     path:'manager/:id',
-    component:EditManagerComponent
+    component:EditManagerComponent,
   },
   {
     path:'**',
-    component:DashboardComponent
-  }
+    component:DashboardComponent,
+  },
 
 ];
 

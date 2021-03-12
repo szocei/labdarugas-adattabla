@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { tap } from 'rxjs/operators';
+import { isNgTemplate } from '@angular/compiler';
+import {tap, map} from "rxjs/operators";
 import { Player } from 'src/app/model/player';
-import { PlayerService } from 'src/app/service/player.service';
+import { PlayerService } from '../../service/player.service';
 
 @Component({
   selector: 'app-player-list',
@@ -12,53 +13,33 @@ import { PlayerService } from 'src/app/service/player.service';
 })
 export class PlayerListComponent implements OnInit {
 
- playerCount:number=0;
-  teamsCount:number=0;
-  summa:number=0;
-  playerAvg:number=0;
-  
-  playerlist$:BehaviorSubject<Player[]>| Observable<Player[]>=this.playerService.listP$.pipe(
-    tap(players=>this.teamsCount=players.filter(x=>x.teamId>0).length),
-    tap(man=>this.playerCount=man.length),
-     )
-      
-     
-     sum(): void {
-   this.playerService.getAllsum().subscribe(data => {
-        this.summa = data
-        .map(item => item.age)
-        .reduce((x, y) => parseInt('' + x) + parseInt('' + y));
-       })
-  }
-
-   
-   
-
+ playerList$:BehaviorSubject<Player[]> | Observable<Player[]>=this.playerService.PlayList$;
   constructor(
-    private playerService: PlayerService,
+    private playerService:PlayerService,
     private router:Router,
   ) { }
-  
- irany:boolean=false;
+
+  irany:boolean=false;
    columnKey:string='';
 
 onColumnSelect(key:string):void{
   this.columnKey=key;
   this.irany=!this.irany;
 }
-
+  
+  
   ngOnInit(): void {
-    this.playerService.getAll();
-    this.playerService.getAllsum();
-    //this.sum();
+    this.playerService.getAll()
+   // this.playerService.getAllsum()
   }
-   onRemove(player:Player):void {
-    this.playerService.remove(player),
-   // this.sum(),
-    // this.featuredCount(),
-    // this.activeCount(),
-    this.router.navigate(['player'])
-  }
+
+oRemove(player:Player):void{
+this.playerService.remove(player);
+console.log('Mi a fasz van?');
+this.router.navigate(['player']);
+
+}
+
 
 
 }

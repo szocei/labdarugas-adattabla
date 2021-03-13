@@ -1,1 +1,57 @@
-<img class="w-100 h-100" src="../../../assets/hatter1.jpg" alt="">
+<div class="container-fluid">
+    <div class="row ">
+        <h1 class="mx-auto">Futball Adatbank</h1>
+    </div>
+    <div class="card-group mx-auto ">
+        <div class="card">
+            <img src="../../../assets/messikicsi.jpg" class="card-img-top" alt="Messi">
+            <div class="card-body">
+                <h5 class="card-title">Játékos adatok</h5>
+                <p class="card-text">A játékosok száma:
+                    <span class="szam">
+                        {{pcount}} fő
+                    </span>
+                </p>
+                <p class="card-text">A játékosok átlagéletkora:
+                    <span class="szam">
+                        {{pavg}} év
+                    </span>
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../../../assets/klopkicsi.jpg" class="card-img-top" alt="Klop">
+            <div class="card-body">
+                <h5 class="card-title">Manager adatok</h5>
+                <p class="card-text">A managerek száma: <span class="szam">
+                        {{mcount}} fő
+                    </span></p>
+                <p class="card-text">A managerek átlagéletkora:
+                    <span class="szam">
+                        {{mavg}} év
+                    </span>
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../../../assets/etokicsi.jpg" class="card-img-top" alt="ETO">
+            <div class="card-body">
+                <h5 class="card-title">Csapat adatok</h5>
+                <p class="card-text">Csapatok száma:
+                    <span class="szam">
+                        {{tcount}} team
+                    </span>
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+    </div>
+</div>

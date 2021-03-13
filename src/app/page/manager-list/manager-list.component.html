@@ -1,6 +1,33 @@
 <div class="container-fluid">
     <div class="row">
+
         <h1 class="mx-auto py-5">Manager List</h1>
+    </div>
+    <div class="row">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <button class="btn btn-success btn-block" [routerLink]="[0]">
+                        <i class="fa fa-edit"></i>
+                        Create Manager
+                    </button>
+                </div>
+                <div class="col-12 col-lg-3 ">
+                    <select [(ngModel)]="filterKey" class="form-control">
+                        <option *ngFor="let key of filterKeys" [value]="key">
+                            {{ key }}
+                        </option>
+                    </select>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search"
+                            (keyup)="onChangePhrase($event)">
+                        <button class="btn btn-success my-2 my-sm-0" (click)="onget()" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
         <table class="table table-striped mx-auto ">
             <thead>
 
@@ -17,7 +44,8 @@
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let manager of managerlist$ |async | sorter:columnKey:irany ">
+                <tr
+                    *ngFor="let manager of managerlist$ |async | filter:phrase:filterKey:managerfilter | sorter:columnKey:irany  ">
                     <td>{{manager.id}}</td>
                     <td>{{manager.first_name}}</td>
                     <td>{{manager.last_name}}</td>
@@ -38,34 +66,30 @@
                     </td>
 
                 </tr>
-                <tr class="bg-info">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>Menedzserek száma:</td>
-                    <td>Csapatnál:</td>
-                    <td>Átlagéletkor:</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
 
-                </tr>
-                <tr class="bg-info">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>{{managerCount}} fő</td>
-                    <td>{{teamsCount}} fő</td>
-                    <td>{{summa/managerCount}} év</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+
             </tbody>
+        </table>
+        <table class="table table-striped mx-auto">
+            <tr class="bg-info">
+
+                <td>Menedzserek száma:</td>
+                <td>{{managerCount}} fő</td>
+                <td></td>
+                <td>Csapatnál:</td>
+                <td>{{teamsCount}} fő</td>
+                <td></td>
+                <td>Átlagéletkor:</td>
+                <td>{{managerAvg}} év</td>
+                <td></td>
+                <td>Kiszűrtek száma:</td>
+                <td>{{managerfilter.count}}</td>
 
 
-
+            </tr>
 
         </table>
+
+
     </div>
 </div>

@@ -1,1 +1,97 @@
-<p>team-list works!</p>
+<div class="container-fluid">
+    <div class="row">
+
+        <h1 class="mx-auto py-5">Team List</h1>
+    </div>
+    <div class="row">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <button class="btn btn-success btn-block" [routerLink]="[0]">
+                        <i class="fa fa-edit"></i>
+                        Create Team
+                    </button>
+                </div>
+                <div class="col-12 col-lg-3 ">
+                    <select [(ngModel)]="filterKey" class="form-control">
+                        <option *ngFor="let key of filterKeys" [value]="key">
+                            {{ key }}
+                        </option>
+                    </select>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search"
+                            (keyup)="onChangePhrase($event)">
+                        <button class="btn btn-success my-2 my-sm-0" (click)="onget()" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <table class="table table-striped mx-auto ">
+            <thead>
+
+                <tr>
+                    <th (click)="onColumnSelect('id')">#</th>
+                    <th (click)="onColumnSelect('name')">Csapatnév</th>
+                    <th (click)="onColumnSelect('country')">Ország</th>
+                    <th (click)="onColumnSelect('city')">City</th>
+                    <th (click)="onColumnSelect('bajnok')">Nyert bajnokságok</th>
+                    <th (click)="onColumnSelect('kupa')">Kupagyőzelmek</th>
+                    <th (click)="onColumnSelect('ertek')">A csapat értéke</th>
+                    <th (click)="onColumnSelect('color1')">Color1</th>
+                    <th (click)="onColumnSelect('color2')">Color2</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr
+                    *ngFor="let team of teamlist$ |async | filter:phrase:filterKey:teamfilter | sorter:columnKey:irany  ">
+                    <td>{{team.id}}</td>
+                    <td>{{team.name}}</td>
+                    <td>{{team.country}}</td>
+                    <td>{{team.city}}</td>
+                    <td>{{team.bajnok}}</td>
+                    <td>{{team.kupa}}</td>
+                    <td>{{team.ertek}}</td>
+                    <td>{{team.color1}}</td>
+                    <td>{{team.color2}}</td>
+                    <td>
+                        <div class="btn-group">
+                            <button [routerLink]="[team.id]" class="btn btn-info">
+                                <i class="fa fa-edit"></i>
+                            </button>
+                            <button (click)="oRemove(team)" class="btn btn-danger">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                        </div>
+                    </td>
+
+                </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-striped mx-auto">
+            <tr class="bg-info">
+
+                <td>Csapatok száma:</td>
+                <td>{{teamCount}} team</td>
+                <td></td>
+                <td>Kiszűrt csapatok száma:</td>
+                <td>{{teamfilter.count}} team</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+            </tr>
+
+        </table>
+
+
+    </div>
+</div>

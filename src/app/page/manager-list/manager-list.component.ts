@@ -17,10 +17,12 @@ export class ManagerListComponent implements OnInit {
   teamsCount:number=0;
   summa:number=0;
   managerAvg:number=0;
+  managerfilter:{count:number}={count:0}
   
   managerlist$:BehaviorSubject<Manager[]>| Observable<Manager[]>=this.managerService.list$.pipe(
     tap(managers=>this.teamsCount=managers.filter(x=>x.teamid>0).length),
     tap(man=>this.managerCount=man.length),
+    tap(mane=>this.managerfilter.count=mane.length), 
      )
 
 
@@ -29,10 +31,14 @@ export class ManagerListComponent implements OnInit {
         this.summa = data
         .map(item => item.age)
         .reduce((x, y) => parseInt('' + x) + parseInt('' + y));
+        this.managerAvg=parseInt(''+this.summa*100/this.managerCount)/100
        })
   }
 
-   
+   filterKey: string = 'first_name';
+filterKeys: string[] = Object.keys(new Manager());
+
+
    
 
   constructor(
@@ -60,6 +66,16 @@ onColumnSelect(key:string):void{
     // this.activeCount(),
     this.router.navigate(['manager'])
   }
+phrase:string='';
 
+onChangePhrase(event:any): void{
+    this.phrase = (event.target as HTMLInputElement).value;
+    this.sum();
+   
+  
+  }
+ onget():void{
+   this.managerService.getAll()
+ }
 
 }

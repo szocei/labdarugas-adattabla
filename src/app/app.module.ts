@@ -13,7 +13,8 @@ import { EditManagerComponent } from './page/edit-manager/edit-manager.component
 import { NavComponent } from './common/nav/nav.component';
 import { DashboardComponent } from './page/dashboard/dashboard.component';
 import { HttpClientModule} from '@angular/common/http';
-import { SorterPipe } from './pipe/sorter.pipe'
+import { SorterPipe } from './pipe/sorter.pipe';
+import { FilterPipe } from './pipe/filter.pipe'
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SorterPipe } from './pipe/sorter.pipe'
     EditManagerComponent,
     NavComponent,
     DashboardComponent,
-    SorterPipe
+    SorterPipe,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

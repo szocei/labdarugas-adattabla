@@ -2439,7 +2439,7 @@
     {
       "id": 216,
       "first_name": "Haven",
-      "last_name": "Greensted",
+      "last_name": "successsted",
       "szulido": "1996-04-30",
       "nationality": "Guaraní",
       "age": 33,
@@ -5276,8 +5276,8 @@
       "bajnok": 20,
       "kupa": 19,
       "ertek": 4438353,
-      "color1": "Indigo",
-      "color2": "Green"
+      "color1": "primary",
+      "color2": "success"
     },
     {
       "id": 2,
@@ -5287,8 +5287,8 @@
       "bajnok": 12,
       "kupa": 5,
       "ertek": 4303617,
-      "color1": "Goldenrod",
-      "color2": "Orange"
+      "color1": "secondary",
+      "color2": "danger"
     },
     {
       "id": 3,
@@ -5298,8 +5298,8 @@
       "bajnok": 7,
       "kupa": 5,
       "ertek": 2041162,
-      "color1": "Indigo",
-      "color2": "Violet"
+      "color1": "primary",
+      "color2": "dark"
     },
     {
       "id": 4,
@@ -5309,8 +5309,8 @@
       "bajnok": 1,
       "kupa": 5,
       "ertek": 2476523,
-      "color1": "Indigo",
-      "color2": "Maroon"
+      "color1": "primary",
+      "color2": "light"
     },
     {
       "id": 5,
@@ -5320,8 +5320,8 @@
       "bajnok": 6,
       "kupa": 1,
       "ertek": 3291902,
-      "color1": "Fuscia",
-      "color2": "Mauv"
+      "color1": "warning",
+      "color2": "danger"
     },
     {
       "id": 6,
@@ -5331,8 +5331,8 @@
       "bajnok": 9,
       "kupa": 16,
       "ertek": 3527687,
-      "color1": "Pink",
-      "color2": "Khaki"
+      "color1": "success",
+      "color2": "light"
     },
     {
       "id": 7,
@@ -5342,8 +5342,8 @@
       "bajnok": 6,
       "kupa": 11,
       "ertek": 1928542,
-      "color1": "Turquoise",
-      "color2": "Violet"
+      "color1": "primary",
+      "color2": "dark"
     },
     {
       "id": 8,
@@ -5353,8 +5353,8 @@
       "bajnok": 13,
       "kupa": 0,
       "ertek": 1208906,
-      "color1": "Puce",
-      "color2": "Fuscia"
+      "color1": "light",
+      "color2": "warning"
     },
     {
       "id": 9,
@@ -5364,8 +5364,8 @@
       "bajnok": 12,
       "kupa": 2,
       "ertek": 3317150,
-      "color1": "Violet",
-      "color2": "Puce"
+      "color1": "dark",
+      "color2": "light"
     },
     {
       "id": 10,
@@ -5375,8 +5375,8 @@
       "bajnok": 0,
       "kupa": 12,
       "ertek": 959992,
-      "color1": "Crimson",
-      "color2": "Blue"
+      "color1": "info",
+      "color2": "primary"
     },
     {
       "id": 11,
@@ -5386,8 +5386,8 @@
       "bajnok": 18,
       "kupa": 2,
       "ertek": 2206869,
-      "color1": "Yellow",
-      "color2": "Fuscia"
+      "color1": "danger",
+      "color2": "warning"
     },
     {
       "id": 13,
@@ -5397,8 +5397,8 @@
       "bajnok": 7,
       "kupa": 22,
       "ertek": 3598484,
-      "color1": "Violet",
-      "color2": "Orange"
+      "color1": "dark",
+      "color2": "danger"
     },
     {
       "id": 14,
@@ -5408,8 +5408,8 @@
       "bajnok": 1,
       "kupa": 14,
       "ertek": 741785,
-      "color1": "Pink",
-      "color2": "Green"
+      "color1": "success",
+      "color2": "light"
     },
     {
       "id": 15,
@@ -5419,8 +5419,8 @@
       "bajnok": 0,
       "kupa": 25,
       "ertek": 3094627,
-      "color1": "Teal",
-      "color2": "Fuscia"
+      "color1": "light",
+      "color2": "warning"
     },
     {
       "id": 16,
@@ -5430,8 +5430,8 @@
       "bajnok": 13,
       "kupa": 9,
       "ertek": 3752652,
-      "color1": "Turquoise",
-      "color2": "Maroon"
+      "color1": "primary",
+      "color2": "light"
     },
     {
       "id": 17,
@@ -5441,8 +5441,8 @@
       "bajnok": 18,
       "kupa": 6,
       "ertek": 2300241,
-      "color1": "Blue",
-      "color2": "Pink"
+      "color1": "primary",
+      "color2": "success"
     },
     {
       "id": 18,
@@ -5452,8 +5452,8 @@
       "bajnok": 12,
       "kupa": 10,
       "ertek": 1314761,
-      "color1": "Puce",
-      "color2": "Crimson"
+      "color1": "light",
+      "color2": "info"
     },
     {
       "id": 19,
@@ -5463,8 +5463,8 @@
       "bajnok": 10,
       "kupa": 4,
       "ertek": 1118953,
-      "color1": "Puce",
-      "color2": "Maroon"
+      "color1": "success",
+      "color2": "light"
     },
     {
       "id": 20,
@@ -5474,8 +5474,8 @@
       "bajnok": 8,
       "kupa": 9,
       "ertek": 1270675,
-      "color1": "Puce",
-      "color2": "Crimson"
+      "color1": "light",
+      "color2": "info"
     },
     {
       "id": 21,
@@ -5485,8 +5485,8 @@
       "bajnok": 8,
       "kupa": 17,
       "ertek": 4685556,
-      "color1": "Turquoise",
-      "color2": "Maroon"
+      "color1": "primary",
+      "color2": "light"
     },
     {
       "id": 22,
@@ -5496,8 +5496,8 @@
       "bajnok": 11,
       "kupa": 15,
       "ertek": 4291783,
-      "color1": "Puce",
-      "color2": "Orange"
+      "color1": "light",
+      "color2": "danger"
     },
     {
       "id": 23,
@@ -5507,8 +5507,8 @@
       "bajnok": 11,
       "kupa": 23,
       "ertek": 834249,
-      "color1": "Goldenrod",
-      "color2": "Mauv"
+      "color1": "secondary",
+      "color2": "danger"
     },
     {
       "id": 24,
@@ -5518,8 +5518,8 @@
       "bajnok": 17,
       "kupa": 1,
       "ertek": 1349746,
-      "color1": "Aquamarine",
-      "color2": "Puce"
+      "color1": "danger",
+      "color2": "light"
     },
     {
       "id": 26,
@@ -5529,8 +5529,8 @@
       "bajnok": 3,
       "kupa": 20,
       "ertek": 47435,
-      "color1": "Green",
-      "color2": "Mauv"
+      "color1": "success",
+      "color2": "danger"
     },
     {
       "id": 27,
@@ -5540,8 +5540,8 @@
       "bajnok": 1,
       "kupa": 18,
       "ertek": 1077437,
-      "color1": "Fuscia",
-      "color2": "Turquoise"
+      "color1": "warning",
+      "color2": "primary"
     },
     {
       "id": 28,
@@ -5551,8 +5551,8 @@
       "bajnok": 7,
       "kupa": 11,
       "ertek": 69662,
-      "color1": "Mauv",
-      "color2": "Pink"
+      "color1": "danger",
+      "color2": "success"
     },
     {
       "id": 29,
@@ -5562,8 +5562,8 @@
       "bajnok": 3,
       "kupa": 21,
       "ertek": 4135194,
-      "color1": "Aquamarine",
-      "color2": "Pink"
+      "color1": "danger",
+      "color2": "success"
     },
     {
       "id": 30,
@@ -5573,8 +5573,8 @@
       "bajnok": 9,
       "kupa": 12,
       "ertek": 4322684,
-      "color1": "Crimson",
-      "color2": "Turquoise"
+      "color1": "info",
+      "color2": "primary"
     }
   ]
 }

@@ -1,1 +1,121 @@
-<p>edit-player works!</p>
+<div class="content">
+    <div class="row">
+
+        <div *ngIf="(player$ | async) as player" class="col-6 offset-3">
+            <form #playerForm="ngForm" (ngSubmit)="onUpdate(playerForm, player)">
+
+                <div class="form-group">
+                    <label for="">FirstName</label>
+                    <input required name="first_name" [(ngModel)]="player.first_name" type="text" class="form-control"
+                        pattern=".{5,25}">
+                    <div [hidden]="playerForm.controls.first_name?.valid" class="error-message">
+                        A vezetéknév minimum 5 és maximum 25 karakterből állhat!
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">LastName</label>
+                    <input required name="last_name" [(ngModel)]="player.last_name" type="text" class="form-control"
+                        pattern=".{5,25}">
+                    <div [hidden]="playerForm.controls.last_name?.valid" class="error-message">
+                        A keresztnév minimum 5 és maximum 25 karakterből állhat!
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Születési idő</label>
+                    <input required name="szulido" [(ngModel)]="player.szulido" type="text" class="form-control"
+                        pattern=".{5,11}">
+                    <div [hidden]="playerForm.controls.szulido?.valid" class="error-message">
+                        Ez egy dátum mező!
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Nationality</label>
+                    <input required name="nationality" [(ngModel)]="player.nationality" type="text" class="form-control"
+                        pattern=".{2,50}">
+                    <div [hidden]="playerForm.controls.nationality?.valid" class="error-message">
+                        A nemzetiség minimum 2 maximum 20 karakter lehet!
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Age</label>
+                    <input required name="age" [(ngModel)]="player.age" type="number" class="form-control"
+                        pattern="[0-9]{2,2}">
+                    <div [hidden]="playerForm.controls.age?.valid" class="error-message">
+                        A kor 2 jegyű szám lehet!
+                    </div>
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <label for="">PosztID</label>
+                    <input required name="posztId" [(ngModel)]="player.posztId" type="number" class="form-control"
+                        pattern="[0-9]{1,2}">
+                    <div [hidden]="playerForm.controls.posztId?.valid" class="error-message">
+                        A posztID szám típus!
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">TeamId</label>
+                    <input required name="teamId" [(ngModel)]="player.teamId" type="number" class="form-control"
+                        pattern="[0-9]">
+
+                    <div [hidden]="playerForm.controls.teamId?.valid" class="error-message">
+                        A teamId csak szám lehet!
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Meccsek száma</label>
+                    <input required name="jatszottMeccs" [(ngModel)]="player.jatszottMeccs" type="number"
+                        class="form-control" pattern="[0-9]">
+
+                    <div [hidden]="playerForm.controls.jatszottMeccs?.valid" class="error-message">
+                        A Meccsek száma csak szám lehet!
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Gólok száma</label>
+                    <input required name="rugottGol" [(ngModel)]="player.rugottGol" type="number" class="form-control"
+                        pattern="[0-9]">
+
+                    <div [hidden]="playerForm.controls.rugottGol?.valid" class="error-message">
+                        A Meccsek száma csak szám lehet!
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Kiállítások száma</label>
+                    <input required name="kiallitas" [(ngModel)]="player.kiallitas" type="number" class="form-control"
+                        pattern="[0-9]">
+
+                    <div [hidden]="playerForm.controls.kiallitas?.valid" class="error-message">
+                        A Meccsek száma csak szám lehet!
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Sárga lapok száma</label>
+                    <input required name="sargaLap" [(ngModel)]="player.sargaLap" type="number" class="form-control"
+                        pattern="[0-9]">
+
+                    <div [hidden]="playerForm.controls.sargaLap?.valid" class="error-message">
+                        A Meccsek száma csak szám lehet!
+                    </div>
+                </div>
+
+
+
+                <button [disabled]="playerForm.invalid || updating" type="submit"
+                    class="btn btn-primary btn-block btn-lg">
+                    <i *ngIf="!updating" class="fa fa-save"></i>
+                    <i *ngIf="updating" class="fa fa-refresh"></i>
+                </button>
+            </form>
+        </div>
+
+    </div>
+</div>

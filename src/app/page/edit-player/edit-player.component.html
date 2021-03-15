@@ -63,7 +63,7 @@
                 <div class="form-group">
                     <label for="">TeamId</label>
                     <input required name="teamId" [(ngModel)]="player.teamId" type="number" class="form-control"
-                        pattern="[0-9]">
+                        pattern="[0-9]{1,}">
 
                     <div [hidden]="playerForm.controls.teamId?.valid" class="error-message">
                         A teamId csak szám lehet!
@@ -73,7 +73,7 @@
                 <div class="form-group">
                     <label for="">Meccsek száma</label>
                     <input required name="jatszottMeccs" [(ngModel)]="player.jatszottMeccs" type="number"
-                        class="form-control" pattern="[0-9]">
+                        class="form-control" pattern="[0-9]{1,}">
 
                     <div [hidden]="playerForm.controls.jatszottMeccs?.valid" class="error-message">
                         A Meccsek száma csak szám lehet!
@@ -82,7 +82,7 @@
                 <div class="form-group">
                     <label for="">Gólok száma</label>
                     <input required name="rugottGol" [(ngModel)]="player.rugottGol" type="number" class="form-control"
-                        pattern="[0-9]">
+                        pattern="[0-9]{1,}">
 
                     <div [hidden]="playerForm.controls.rugottGol?.valid" class="error-message">
                         A Meccsek száma csak szám lehet!
@@ -91,7 +91,7 @@
                 <div class="form-group">
                     <label for="">Kiállítások száma</label>
                     <input required name="kiallitas" [(ngModel)]="player.kiallitas" type="number" class="form-control"
-                        pattern="[0-9]">
+                        pattern="[0-9]{1,}">
 
                     <div [hidden]="playerForm.controls.kiallitas?.valid" class="error-message">
                         A Meccsek száma csak szám lehet!
@@ -100,7 +100,7 @@
                 <div class="form-group">
                     <label for="">Sárga lapok száma</label>
                     <input required name="sargaLap" [(ngModel)]="player.sargaLap" type="number" class="form-control"
-                        pattern="[0-9]">
+                        pattern="[0-9]{1,}">
 
                     <div [hidden]="playerForm.controls.sargaLap?.valid" class="error-message">
                         A Meccsek száma csak szám lehet!

@@ -1,1 +1,119 @@
-<p>edit-team works!</p>
+<div class="content">
+    <div class="row">
+
+        <div *ngIf="(team$ | async) as team" class="col-6 offset-3">
+            <form #teamForm="ngForm" (ngSubmit)="onUpdate(teamForm, team)">
+
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <input required name="name" [(ngModel)]="team.name" type="text" class="form-control"
+                        pattern=".{2,25}">
+                    <div [hidden]="teamForm.controls.name?.valid" class="error-message">
+                        A csapatnév minimum 2 és maximum 25 karakterből állhat!
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Country</label>
+                    <input required name="country" [(ngModel)]="team.country" type="text" class="form-control"
+                        pattern=".{5,25}">
+                    <div [hidden]="teamForm.controls.country?.valid" class="error-message">
+                        Az országnév minimum 5 és maximum 25 karakterből állhat!
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">City</label>
+                    <input required name="city" [(ngModel)]="team.city" type="text" class="form-control"
+                        pattern=".{5,25}">
+                    <div [hidden]="teamForm.controls.city?.valid" class="error-message">
+                        Ez egy szöveg mező!
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="">Bajnokságok száma</label>
+                    <input required name="bajnok" [(ngModel)]="team.bajnok" type="number" class="form-control"
+                        pattern="[0-9]{1,2}">
+                    <div [hidden]="teamForm.controls.bajnok?.valid" class="error-message">
+                        A bajnokságok szám lehet!
+                    </div>
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <label for="">Kupagyőzelmek</label>
+                    <input required name="kupa" [(ngModel)]="team.kupa" type="number" class="form-control"
+                        pattern="[0-9]{1,2}">
+                    <div [hidden]="teamForm.controls.kupa?.valid" class="error-message">
+                        A Kupagyőzelem szám típus!
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Csapat értéke</label>
+                    <input required name="ertek" [(ngModel)]="team.ertek" type="number" class="form-control"
+                        pattern="[0-9]{3,}">
+
+                    <div [hidden]="teamForm.controls.ertek?.valid" class="error-message">
+                        A csapat értéke csak szám lehet!
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Csapatszín 1.</label>
+                    <!-- <input required name="color2" [(ngModel)]="team.color2" type="number" class="form-control"
+                                        pattern=".{2,11}"> -->
+
+                    <select required name="color1" [(ngModel)]="team.color1" class="form-control" pattern=".{2,11}">
+                        <option value="primary">Kék</option>
+                        <option value="secondary">Szürke</option>
+                        <option value="danger">Piros</option>
+                        <option value="success">Zöld</option>
+                        <option value="dark">Fekete</option>
+                        <option value="info">Világoskék</option>
+                        <option value="warning">Sárga</option>
+                        <option value="light">Fehér</option>
+                    </select>
+                    <div [hidden]="teamForm.controls.color1?.valid" class="error-message">
+                        A csapatszín csak szín lehet!
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Csapatszín 2.</label>
+                    <!-- <input required name="color2" [(ngModel)]="team.color2" type="number" class="form-control"
+                        pattern=".{2,11}"> -->
+
+                    <select required name="color2" [(ngModel)]="team.color2" class="form-control" pattern=".{2,11}">
+                        <option value="primary">Kék</option>
+                        <option value="secondary">Szürke</option>
+                        <option value="danger">Piros</option>
+                        <option value="success">Zöld</option>
+                        <option value="dark">Fekete</option>
+                        <option value="info">Világoskék</option>
+                        <option value="warning">Sárga</option>
+                        <option value="light">Fehér</option>
+                    </select>
+                    <div [hidden]="teamForm.controls.color2?.valid" class="error-message">
+                        A csapatszín csak szín lehet!
+                    </div>
+                </div>
+
+
+
+
+
+                <button [disabled]="teamForm.invalid || updating" type="submit"
+                    class="btn btn-primary btn-block btn-lg">
+                    <i *ngIf="!updating" class="fa fa-save"></i>
+                    <i *ngIf="updating" class="fa fa-refresh"></i>
+                </button>
+            </form>
+        </div>
+
+    </div>
+</div>

@@ -63,7 +63,7 @@
                 <div class="form-group">
                     <label for="">TeamId</label>
                     <input required name="teamid" [(ngModel)]="manager.teamid" type="number" class="form-control"
-                        pattern="[0-9]">
+                        pattern="[0-9]{1,}">
 
                     <div [hidden]="managerForm.controls.teamid?.valid" class="error-message">
                         A teamId csak szám lehet!

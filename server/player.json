@@ -5254,7 +5254,7 @@
       "gender": "Nő",
       "nationality": "magyar",
       "age": 38,
-      "teamid": 6
+      "teamid": 32
     },
     {
       "id": 53,
@@ -5575,6 +5575,28 @@
       "ertek": 4322684,
       "color1": "info",
       "color2": "primary"
+    },
+    {
+      "id": 31,
+      "name": "Börcs FC",
+      "country": "Magyarország",
+      "city": "Börcs",
+      "bajnok": 0,
+      "kupa": 0,
+      "ertek": 20000,
+      "color1": "success",
+      "color2": "light"
+    },
+    {
+      "id": 32,
+      "name": "Gyafa",
+      "country": "Magyarország",
+      "city": "Győrasszonyfa",
+      "bajnok": 0,
+      "kupa": 0,
+      "ertek": 19000,
+      "color1": "primary",
+      "color2": "light"
     }
   ]
 }

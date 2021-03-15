@@ -1,7 +1,9 @@
 <div class="container-fluid">
+
     <div class="row ">
         <h1 class="mx-auto">Futball Adatbank</h1>
     </div>
+    <div class="container"></div>
     <div class="card-group mx-auto ">
         <div class="card">
             <img src="../../../assets/messikicsi.jpg" class="card-img-top" alt="Messi">
@@ -18,9 +20,7 @@
                     </span>
                 </p>
             </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
+
         </div>
         <div class="card">
             <img src="../../../assets/klopkicsi.jpg" class="card-img-top" alt="Klop">
@@ -35,9 +35,6 @@
                     </span>
                 </p>
             </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
         </div>
         <div class="card">
             <img src="../../../assets/etokicsi.jpg" class="card-img-top" alt="ETO">
@@ -48,10 +45,34 @@
                         {{tcount}} team
                     </span>
                 </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <p class="card-text">Magyar csapatok száma:
+                    <span class="szam">
+                        {{magyarteam}} team
+                    </span>
+                </p>
+
             </div>
         </div>
+
+        <div class="container caruseles">
+            <div class="grid-item"></div>
+            <div class="grid-item">
+
+                <div id="carouselExampleSlidesOnly" data-interval="8000" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../../../assets/1.PNG" class="d-block w-100" alt="Első idézet">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../../assets/2.PNG" class="d-block w-100" alt="Második">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../../assets/3.PNG" class="d-block w-100" alt="Harmadik">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="grid-item"></div>
+        </div>
     </div>
-</div>

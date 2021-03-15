@@ -1,10 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { Player } from 'src/app/model/player';
 import { PlayerService } from 'src/app/service/player.service';
+import { TeamService } from '../../service/team.service';
+import { Team } from '../../model/team';
 
 
 @Component({
@@ -13,15 +15,23 @@ import { PlayerService } from 'src/app/service/player.service';
   styleUrls: ['./edit-player.component.scss']
 })
 export class EditPlayerComponent implements OnInit {
-
+@Input() tid:number=0;
    player$: Observable<Player> = this.activatedRoute.params.pipe(
     switchMap( params => this.playerService.get(params.id) )
+ 
   );
+   team$: Observable<Team> = this.activatedRoute.params.pipe(
+    switchMap( params => this.teamService.get(params.id) )
+ 
+  );
+
+
 
   constructor(
       private activatedRoute: ActivatedRoute,
     private playerService: PlayerService,
     private router: Router,
+    private teamService:TeamService,
   ) { }
 
   updating:boolean=false;
@@ -40,7 +50,7 @@ export class EditPlayerComponent implements OnInit {
 
     
   }
-
+  
   ngOnInit(): void {
   }
 

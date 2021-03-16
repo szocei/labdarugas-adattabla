@@ -14,7 +14,8 @@ import { NavComponent } from './common/nav/nav.component';
 import { DashboardComponent } from './page/dashboard/dashboard.component';
 import { HttpClientModule} from '@angular/common/http';
 import { SorterPipe } from './pipe/sorter.pipe';
-import { FilterPipe } from './pipe/filter.pipe'
+import { FilterPipe } from './pipe/filter.pipe';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FilterPipe } from './pipe/filter.pipe'
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

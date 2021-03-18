@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
-import { switchMap } from 'rxjs/operators';
+import { debounceTime, switchMap } from 'rxjs/operators';
 import { Player } from 'src/app/model/player';
 import { PlayerService } from 'src/app/service/player.service';
 import { TeamService } from '../../service/team.service';
@@ -15,32 +15,55 @@ import { Team } from '../../model/team';
   styleUrls: ['./edit-player.component.scss']
 })
 export class EditPlayerComponent implements OnInit {
-@Input() tid:number=0;
+
    player$: Observable<Player> = this.activatedRoute.params.pipe(
     switchMap( params => this.playerService.get(params.id) )
  
   );
-   team$: Observable<Team> = this.activatedRoute.params.pipe(
-    switchMap( params => this.teamService.get(params.id) )
- 
-  );
 
-
-
+  teamidconfig:Team=new Team();
+  
   constructor(
-      private activatedRoute: ActivatedRoute,
+    private activatedRoute: ActivatedRoute,
     private playerService: PlayerService,
     private router: Router,
     private teamService:TeamService,
-  ) { }
+    ) { }
+    
+    search=(text$:Observable<string>)=>text$.pipe(
+        debounceTime(300),
+        switchMap(
+          txt=>this.teamService.like('name',txt)
+        )
+
+      )
+    
+
+playerResultFormatter(team:Team):string {
+  return `${team.name} ${team.country}`;
+}
+playerInputFormatter(team:Team):string {
+  if(!team.id){
+    return '';
+  }
+   return `${team.id} ${team.name} ${team.country}`;
+  //return `${team.id}`;
+}
+
+
+  
+  
 
   updating:boolean=false;
 
   onUpdate(form: NgForm, player: Player): void {
     if(player.id===0){
+      player.teamId=this.teamidconfig.id,
       this.playerService.create(player)
 
+
     }else{
+      player.teamId=this.teamidconfig.id,
       this.updating=true,
       this.playerService.update(player)
     }

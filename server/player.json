@@ -4773,6 +4773,20 @@
       "rugottGol": 31,
       "kiallitas": 31,
       "sargaLap": 23
+    },
+    {
+      "id": 401,
+      "first_name": "Szőcei",
+      "last_name": "Zoltán",
+      "szulido": "1972.11.22",
+      "nationality": "magyar",
+      "age": 48,
+      "posztId": 2,
+      "teamId": 26,
+      "jatszottMeccs": 210,
+      "rugottGol": 120,
+      "kiallitas": 3,
+      "sargaLap": 34
     }
   ],
   "managers": [

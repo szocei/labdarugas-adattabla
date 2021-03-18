@@ -63,7 +63,11 @@ remove(team:Team):void {
 
 }
 
-
+like(key:string, value:string):Observable<Team[]>{
+  key= `${key}_like`;
+  const query = `${this.teamUrl}?${key}=${value}`;
+  return this.http.get<Team[]>(query)
+}
 
 
   }

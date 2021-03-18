@@ -54,7 +54,11 @@ getAll(): void {
       );
   }
 
-
+like(key:string, value:string,limit:number=10):Observable<Player[]>{
+  key= `${key}_like`;
+  const query = `${this.playerUrl}?${key}=${value}&_limit=${limit}`;
+  return this.http.get<Player[]>(query)
+}
 
 
 

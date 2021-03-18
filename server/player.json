@@ -8,7 +8,7 @@
       "nationality": "Romanian",
       "age": 19,
       "posztId": 9,
-      "teamId": 10,
+      "teamId": 23,
       "jatszottMeccs": 312,
       "rugottGol": 76,
       "kiallitas": 28,
@@ -71,34 +71,6 @@
       "sargaLap": 114
     },
     {
-      "id": 21,
-      "first_name": "Flint",
-      "last_name": "Dimic",
-      "szulido": "1982-02-27",
-      "nationality": "Armenian",
-      "age": 37,
-      "posztId": 11,
-      "teamId": 11,
-      "jatszottMeccs": 96,
-      "rugottGol": 126,
-      "kiallitas": 37,
-      "sargaLap": 88
-    },
-    {
-      "id": 23,
-      "first_name": "Cordie",
-      "last_name": "Monelli",
-      "szulido": "1992-06-28",
-      "nationality": "Bengali",
-      "age": 23,
-      "posztId": 11,
-      "teamId": 17,
-      "jatszottMeccs": 272,
-      "rugottGol": 56,
-      "kiallitas": 19,
-      "sargaLap": 115
-    },
-    {
       "id": 24,
       "first_name": "Garrek",
       "last_name": "O'Henecan",
@@ -141,20 +113,6 @@
       "sargaLap": 11
     },
     {
-      "id": 27,
-      "first_name": "Saunder",
-      "last_name": "Sudran",
-      "szulido": "1995-07-15",
-      "nationality": "magyar",
-      "age": 37,
-      "posztId": 19,
-      "teamId": 17,
-      "jatszottMeccs": 32,
-      "rugottGol": 101,
-      "kiallitas": 3,
-      "sargaLap": 101
-    },
-    {
       "id": 28,
       "first_name": "Shelton",
       "last_name": "Yeowell",
@@ -167,20 +125,6 @@
       "rugottGol": 140,
       "kiallitas": 23,
       "sargaLap": 118
-    },
-    {
-      "id": 29,
-      "first_name": "Con",
-      "last_name": "Woollons",
-      "szulido": "2002-08-01",
-      "nationality": "Bulgarian",
-      "age": 23,
-      "posztId": 5,
-      "teamId": 11,
-      "jatszottMeccs": 186,
-      "rugottGol": 126,
-      "kiallitas": 11,
-      "sargaLap": 21
     },
     {
       "id": 30,
@@ -251,34 +195,6 @@
       "rugottGol": 53,
       "kiallitas": 28,
       "sargaLap": 73
-    },
-    {
-      "id": 35,
-      "first_name": "Bobby",
-      "last_name": "Grzegorzewski",
-      "szulido": "1989-09-06",
-      "nationality": "Romanian",
-      "age": 25,
-      "posztId": 18,
-      "teamId": 13,
-      "jatszottMeccs": 392,
-      "rugottGol": 58,
-      "kiallitas": 25,
-      "sargaLap": 30
-    },
-    {
-      "id": 36,
-      "first_name": "Haroun",
-      "last_name": "Pedroli",
-      "szulido": "1989-03-25",
-      "nationality": "Indonesian",
-      "age": 15,
-      "posztId": 22,
-      "teamId": 11,
-      "jatszottMeccs": 349,
-      "rugottGol": 70,
-      "kiallitas": 10,
-      "sargaLap": 58
     },
     {
       "id": 41,
@@ -421,20 +337,6 @@
       "sargaLap": 89
     },
     {
-      "id": 53,
-      "first_name": "Bartie",
-      "last_name": "Fattorini",
-      "szulido": "1981-01-15",
-      "nationality": "Gagauz",
-      "age": 31,
-      "posztId": 1,
-      "teamId": 13,
-      "jatszottMeccs": 106,
-      "rugottGol": 107,
-      "kiallitas": 12,
-      "sargaLap": 53
-    },
-    {
       "id": 54,
       "first_name": "Nicky",
       "last_name": "Beach",
@@ -475,20 +377,6 @@
       "rugottGol": 54,
       "kiallitas": 38,
       "sargaLap": 112
-    },
-    {
-      "id": 59,
-      "first_name": "Marlowe",
-      "last_name": "Ibbeson",
-      "szulido": "2001-05-23",
-      "nationality": "Dari",
-      "age": 39,
-      "posztId": 8,
-      "teamId": 11,
-      "jatszottMeccs": 331,
-      "rugottGol": 144,
-      "kiallitas": 19,
-      "sargaLap": 102
     },
     {
       "id": 60,
@@ -545,20 +433,6 @@
       "rugottGol": 139,
       "kiallitas": 2,
       "sargaLap": 78
-    },
-    {
-      "id": 64,
-      "first_name": "Benn",
-      "last_name": "Stamps",
-      "szulido": "1995-02-13",
-      "nationality": "Finnish",
-      "age": 42,
-      "posztId": 5,
-      "teamId": 13,
-      "jatszottMeccs": 116,
-      "rugottGol": 54,
-      "kiallitas": 6,
-      "sargaLap": 37
     },
     {
       "id": 65,
@@ -715,20 +589,6 @@
       "sargaLap": 78
     },
     {
-      "id": 81,
-      "first_name": "Nicky",
-      "last_name": "Hannabus",
-      "szulido": "1997-04-12",
-      "nationality": "Azeri",
-      "age": 29,
-      "posztId": 13,
-      "teamId": 11,
-      "jatszottMeccs": 21,
-      "rugottGol": 74,
-      "kiallitas": 8,
-      "sargaLap": 49
-    },
-    {
       "id": 82,
       "first_name": "Cleon",
       "last_name": "Tomei",
@@ -755,20 +615,6 @@
       "rugottGol": 110,
       "kiallitas": 38,
       "sargaLap": 60
-    },
-    {
-      "id": 86,
-      "first_name": "Wynn",
-      "last_name": "Skryne",
-      "szulido": "1984-01-08",
-      "nationality": "Amharic",
-      "age": 25,
-      "posztId": 13,
-      "teamId": 17,
-      "jatszottMeccs": 288,
-      "rugottGol": 81,
-      "kiallitas": 7,
-      "sargaLap": 82
     },
     {
       "id": 87,
@@ -813,20 +659,6 @@
       "sargaLap": 63
     },
     {
-      "id": 91,
-      "first_name": "Filippo",
-      "last_name": "Billyeald",
-      "szulido": "1982-06-04",
-      "nationality": "Aymara",
-      "age": 16,
-      "posztId": 5,
-      "teamId": 13,
-      "jatszottMeccs": 152,
-      "rugottGol": 76,
-      "kiallitas": 31,
-      "sargaLap": 42
-    },
-    {
       "id": 92,
       "first_name": "Ferdinand",
       "last_name": "Rushforth",
@@ -853,48 +685,6 @@
       "rugottGol": 32,
       "kiallitas": 16,
       "sargaLap": 53
-    },
-    {
-      "id": 94,
-      "first_name": "Stanly",
-      "last_name": "Wagge",
-      "szulido": "1992-07-14",
-      "nationality": "English",
-      "age": 32,
-      "posztId": 19,
-      "teamId": 17,
-      "jatszottMeccs": 15,
-      "rugottGol": 91,
-      "kiallitas": 39,
-      "sargaLap": 32
-    },
-    {
-      "id": 95,
-      "first_name": "Ripley",
-      "last_name": "Purple",
-      "szulido": "1994-07-18",
-      "nationality": "Norwegian",
-      "age": 28,
-      "posztId": 21,
-      "teamId": 13,
-      "jatszottMeccs": 146,
-      "rugottGol": 79,
-      "kiallitas": 32,
-      "sargaLap": 32
-    },
-    {
-      "id": 96,
-      "first_name": "Ernie",
-      "last_name": "Olyonov",
-      "szulido": "1988-07-18",
-      "nationality": "Bengali",
-      "age": 18,
-      "posztId": 12,
-      "teamId": 17,
-      "jatszottMeccs": 149,
-      "rugottGol": 57,
-      "kiallitas": 11,
-      "sargaLap": 3
     },
     {
       "id": 97,
@@ -965,34 +755,6 @@
       "rugottGol": 124,
       "kiallitas": 26,
       "sargaLap": 112
-    },
-    {
-      "id": 102,
-      "first_name": "Giraud",
-      "last_name": "Warlow",
-      "szulido": "1978-06-26",
-      "nationality": "Croatian",
-      "age": 37,
-      "posztId": 14,
-      "teamId": 17,
-      "jatszottMeccs": 359,
-      "rugottGol": 124,
-      "kiallitas": 11,
-      "sargaLap": 60
-    },
-    {
-      "id": 103,
-      "first_name": "Ferrel",
-      "last_name": "Sentinella",
-      "szulido": "2004-05-23",
-      "nationality": "Catalan",
-      "age": 16,
-      "posztId": 3,
-      "teamId": 13,
-      "jatszottMeccs": 29,
-      "rugottGol": 112,
-      "kiallitas": 20,
-      "sargaLap": 104
     },
     {
       "id": 104,
@@ -1233,20 +995,6 @@
       "sargaLap": 98
     },
     {
-      "id": 124,
-      "first_name": "Windham",
-      "last_name": "Clougher",
-      "szulido": "1980-12-28",
-      "nationality": "Arabic",
-      "age": 18,
-      "posztId": 2,
-      "teamId": 17,
-      "jatszottMeccs": 236,
-      "rugottGol": 126,
-      "kiallitas": 6,
-      "sargaLap": 26
-    },
-    {
       "id": 125,
       "first_name": "Osbourn",
       "last_name": "McVey",
@@ -1259,20 +1007,6 @@
       "rugottGol": 104,
       "kiallitas": 35,
       "sargaLap": 56
-    },
-    {
-      "id": 126,
-      "first_name": "See",
-      "last_name": "Mant",
-      "szulido": "1978-07-31",
-      "nationality": "román",
-      "age": 35,
-      "posztId": 6,
-      "teamId": 11,
-      "jatszottMeccs": 284,
-      "rugottGol": 77,
-      "kiallitas": 22,
-      "sargaLap": 72
     },
     {
       "id": 127,
@@ -1401,20 +1135,6 @@
       "sargaLap": 3
     },
     {
-      "id": 136,
-      "first_name": "Waverley",
-      "last_name": "Thies",
-      "szulido": "1975-09-21",
-      "nationality": "Thai",
-      "age": 35,
-      "posztId": 26,
-      "teamId": 17,
-      "jatszottMeccs": 169,
-      "rugottGol": 146,
-      "kiallitas": 30,
-      "sargaLap": 51
-    },
-    {
       "id": 137,
       "first_name": "Ermin",
       "last_name": "Serman",
@@ -1511,20 +1231,6 @@
       "rugottGol": 12,
       "kiallitas": 14,
       "sargaLap": 65
-    },
-    {
-      "id": 144,
-      "first_name": "Shurlock",
-      "last_name": "Penas",
-      "szulido": "2005-01-18",
-      "nationality": "West Frisian",
-      "age": 46,
-      "posztId": 15,
-      "teamId": 17,
-      "jatszottMeccs": 264,
-      "rugottGol": 28,
-      "kiallitas": 31,
-      "sargaLap": 84
     },
     {
       "id": 145,
@@ -1625,20 +1331,6 @@
       "sargaLap": 36
     },
     {
-      "id": 153,
-      "first_name": "Huey",
-      "last_name": "Sisey",
-      "szulido": "2004-03-15",
-      "nationality": "Persian",
-      "age": 35,
-      "posztId": 18,
-      "teamId": 11,
-      "jatszottMeccs": 392,
-      "rugottGol": 39,
-      "kiallitas": 31,
-      "sargaLap": 75
-    },
-    {
       "id": 154,
       "first_name": "Gonzalo",
       "last_name": "Kaplan",
@@ -1651,20 +1343,6 @@
       "rugottGol": 82,
       "kiallitas": 22,
       "sargaLap": 66
-    },
-    {
-      "id": 155,
-      "first_name": "Traver",
-      "last_name": "Whitcombe",
-      "szulido": "1993-07-14",
-      "nationality": "Persian",
-      "age": 46,
-      "posztId": 21,
-      "teamId": 11,
-      "jatszottMeccs": 235,
-      "rugottGol": 63,
-      "kiallitas": 25,
-      "sargaLap": 79
     },
     {
       "id": 156,
@@ -1721,20 +1399,6 @@
       "rugottGol": 141,
       "kiallitas": 8,
       "sargaLap": 24
-    },
-    {
-      "id": 160,
-      "first_name": "Jerrold",
-      "last_name": "Frayn",
-      "szulido": "2002-08-24",
-      "nationality": "Guaraní",
-      "age": 17,
-      "posztId": 18,
-      "teamId": 17,
-      "jatszottMeccs": 54,
-      "rugottGol": 147,
-      "kiallitas": 14,
-      "sargaLap": 70
     },
     {
       "id": 161,
@@ -1863,20 +1527,6 @@
       "sargaLap": 20
     },
     {
-      "id": 171,
-      "first_name": "Tirrell",
-      "last_name": "MacShirie",
-      "szulido": "1982-08-06",
-      "nationality": "Arabic",
-      "age": 34,
-      "posztId": 17,
-      "teamId": 17,
-      "jatszottMeccs": 272,
-      "rugottGol": 8,
-      "kiallitas": 23,
-      "sargaLap": 5
-    },
-    {
       "id": 172,
       "first_name": "Weylin",
       "last_name": "Sawyer",
@@ -1919,20 +1569,6 @@
       "sargaLap": 78
     },
     {
-      "id": 175,
-      "first_name": "Gaspar",
-      "last_name": "Sheach",
-      "szulido": "2000-02-17",
-      "nationality": "Northern olasz",
-      "age": 19,
-      "posztId": 2,
-      "teamId": 13,
-      "jatszottMeccs": 366,
-      "rugottGol": 87,
-      "kiallitas": 27,
-      "sargaLap": 50
-    },
-    {
       "id": 176,
       "first_name": "Herman",
       "last_name": "Henden",
@@ -1973,20 +1609,6 @@
       "rugottGol": 147,
       "kiallitas": 1,
       "sargaLap": 69
-    },
-    {
-      "id": 179,
-      "first_name": "Ripley",
-      "last_name": "Trump",
-      "szulido": "2005-08-01",
-      "nationality": "Malay",
-      "age": 44,
-      "posztId": 23,
-      "teamId": 11,
-      "jatszottMeccs": 212,
-      "rugottGol": 0,
-      "kiallitas": 17,
-      "sargaLap": 78
     },
     {
       "id": 180,
@@ -2157,20 +1779,6 @@
       "sargaLap": 109
     },
     {
-      "id": 193,
-      "first_name": "Francklin",
-      "last_name": "Purselow",
-      "szulido": "1990-04-21",
-      "nationality": "Romanian",
-      "age": 27,
-      "posztId": 14,
-      "teamId": 13,
-      "jatszottMeccs": 302,
-      "rugottGol": 5,
-      "kiallitas": 12,
-      "sargaLap": 114
-    },
-    {
       "id": 194,
       "first_name": "Monroe",
       "last_name": "Pape",
@@ -2197,20 +1805,6 @@
       "rugottGol": 20,
       "kiallitas": 15,
       "sargaLap": 76
-    },
-    {
-      "id": 197,
-      "first_name": "Stanfield",
-      "last_name": "Cleugher",
-      "szulido": "1996-02-06",
-      "nationality": "Icelandic",
-      "age": 31,
-      "posztId": 30,
-      "teamId": 13,
-      "jatszottMeccs": 150,
-      "rugottGol": 131,
-      "kiallitas": 23,
-      "sargaLap": 118
     },
     {
       "id": 198,
@@ -2297,20 +1891,6 @@
       "sargaLap": 74
     },
     {
-      "id": 205,
-      "first_name": "Hal",
-      "last_name": "Boldock",
-      "szulido": "1996-10-19",
-      "nationality": "Burmese",
-      "age": 38,
-      "posztId": 17,
-      "teamId": 13,
-      "jatszottMeccs": 363,
-      "rugottGol": 111,
-      "kiallitas": 6,
-      "sargaLap": 117
-    },
-    {
       "id": 206,
       "first_name": "Stearn",
       "last_name": "Gavahan",
@@ -2339,34 +1919,6 @@
       "sargaLap": 67
     },
     {
-      "id": 208,
-      "first_name": "Pebrook",
-      "last_name": "Cheson",
-      "szulido": "2000-01-27",
-      "nationality": "Malagasy",
-      "age": 23,
-      "posztId": 19,
-      "teamId": 11,
-      "jatszottMeccs": 385,
-      "rugottGol": 30,
-      "kiallitas": 22,
-      "sargaLap": 113
-    },
-    {
-      "id": 209,
-      "first_name": "Lion",
-      "last_name": "Foxten",
-      "szulido": "1985-08-21",
-      "nationality": "Haitian Creole",
-      "age": 46,
-      "posztId": 24,
-      "teamId": 17,
-      "jatszottMeccs": 294,
-      "rugottGol": 129,
-      "kiallitas": 23,
-      "sargaLap": 76
-    },
-    {
       "id": 210,
       "first_name": "Solly",
       "last_name": "Moodie",
@@ -2379,34 +1931,6 @@
       "rugottGol": 1,
       "kiallitas": 1,
       "sargaLap": 69
-    },
-    {
-      "id": 211,
-      "first_name": "Ambros",
-      "last_name": "Vedekhin",
-      "szulido": "1993-07-12",
-      "nationality": "Hebrew",
-      "age": 44,
-      "posztId": 17,
-      "teamId": 17,
-      "jatszottMeccs": 100,
-      "rugottGol": 126,
-      "kiallitas": 34,
-      "sargaLap": 29
-    },
-    {
-      "id": 212,
-      "first_name": "Philbert",
-      "last_name": "Torri",
-      "szulido": "1985-01-09",
-      "nationality": "Northern olasz",
-      "age": 36,
-      "posztId": 8,
-      "teamId": 17,
-      "jatszottMeccs": 282,
-      "rugottGol": 72,
-      "kiallitas": 20,
-      "sargaLap": 56
     },
     {
       "id": 214,
@@ -2491,20 +2015,6 @@
       "rugottGol": 18,
       "kiallitas": 22,
       "sargaLap": 34
-    },
-    {
-      "id": 220,
-      "first_name": "Rolfe",
-      "last_name": "Gaskal",
-      "szulido": "1987-11-21",
-      "nationality": "szerb",
-      "age": 37,
-      "posztId": 4,
-      "teamId": 13,
-      "jatszottMeccs": 76,
-      "rugottGol": 128,
-      "kiallitas": 7,
-      "sargaLap": 41
     },
     {
       "id": 222,
@@ -2745,34 +2255,6 @@
       "sargaLap": 52
     },
     {
-      "id": 239,
-      "first_name": "Ebeneser",
-      "last_name": "Gemlbett",
-      "szulido": "1982-04-14",
-      "nationality": "Yiddish",
-      "age": 36,
-      "posztId": 30,
-      "teamId": 17,
-      "jatszottMeccs": 119,
-      "rugottGol": 130,
-      "kiallitas": 4,
-      "sargaLap": 35
-    },
-    {
-      "id": 240,
-      "first_name": "Curtis",
-      "last_name": "Worling",
-      "szulido": "1984-12-27",
-      "nationality": "Luxembourgish",
-      "age": 22,
-      "posztId": 11,
-      "teamId": 17,
-      "jatszottMeccs": 137,
-      "rugottGol": 35,
-      "kiallitas": 9,
-      "sargaLap": 100
-    },
-    {
       "id": 241,
       "first_name": "Hector",
       "last_name": "MacKartan",
@@ -2871,20 +2353,6 @@
       "sargaLap": 105
     },
     {
-      "id": 248,
-      "first_name": "Israel",
-      "last_name": "Ledward",
-      "szulido": "1978-02-22",
-      "nationality": "Yiddish",
-      "age": 22,
-      "posztId": 3,
-      "teamId": 13,
-      "jatszottMeccs": 294,
-      "rugottGol": 90,
-      "kiallitas": 23,
-      "sargaLap": 51
-    },
-    {
       "id": 249,
       "first_name": "Shermie",
       "last_name": "Pinsent",
@@ -2897,20 +2365,6 @@
       "rugottGol": 74,
       "kiallitas": 29,
       "sargaLap": 57
-    },
-    {
-      "id": 250,
-      "first_name": "Wang",
-      "last_name": "Bengefield",
-      "szulido": "2005-05-21",
-      "nationality": "Somali",
-      "age": 18,
-      "posztId": 2,
-      "teamId": 11,
-      "jatszottMeccs": 40,
-      "rugottGol": 67,
-      "kiallitas": 20,
-      "sargaLap": 94
     },
     {
       "id": 251,
@@ -2941,20 +2395,6 @@
       "sargaLap": 66
     },
     {
-      "id": 253,
-      "first_name": "Dino",
-      "last_name": "McAteer",
-      "szulido": "1986-04-25",
-      "nationality": "Persian",
-      "age": 39,
-      "posztId": 24,
-      "teamId": 11,
-      "jatszottMeccs": 390,
-      "rugottGol": 79,
-      "kiallitas": 36,
-      "sargaLap": 114
-    },
-    {
       "id": 254,
       "first_name": "Cirilo",
       "last_name": "Hands",
@@ -2967,20 +2407,6 @@
       "rugottGol": 124,
       "kiallitas": 39,
       "sargaLap": 36
-    },
-    {
-      "id": 255,
-      "first_name": "Roman",
-      "last_name": "Pagden",
-      "szulido": "1984-02-09",
-      "nationality": "Dzongkha",
-      "age": 24,
-      "posztId": 8,
-      "teamId": 13,
-      "jatszottMeccs": 172,
-      "rugottGol": 64,
-      "kiallitas": 29,
-      "sargaLap": 82
     },
     {
       "id": 256,
@@ -3079,20 +2505,6 @@
       "rugottGol": 56,
       "kiallitas": 3,
       "sargaLap": 81
-    },
-    {
-      "id": 263,
-      "first_name": "Kane",
-      "last_name": "Sillick",
-      "szulido": "1987-01-20",
-      "nationality": "Moldovan",
-      "age": 44,
-      "posztId": 14,
-      "teamId": 13,
-      "jatszottMeccs": 92,
-      "rugottGol": 78,
-      "kiallitas": 21,
-      "sargaLap": 110
     },
     {
       "id": 265,
@@ -3235,48 +2647,6 @@
       "sargaLap": 22
     },
     {
-      "id": 275,
-      "first_name": "Linus",
-      "last_name": "Spring",
-      "szulido": "1988-02-22",
-      "nationality": "Aymara",
-      "age": 43,
-      "posztId": 30,
-      "teamId": 11,
-      "jatszottMeccs": 124,
-      "rugottGol": 134,
-      "kiallitas": 15,
-      "sargaLap": 29
-    },
-    {
-      "id": 276,
-      "first_name": "Kalle",
-      "last_name": "Fuzzard",
-      "szulido": "1994-02-16",
-      "nationality": "magyar",
-      "age": 24,
-      "posztId": 8,
-      "teamId": 17,
-      "jatszottMeccs": 56,
-      "rugottGol": 86,
-      "kiallitas": 33,
-      "sargaLap": 16
-    },
-    {
-      "id": 277,
-      "first_name": "Nataniel",
-      "last_name": "Village",
-      "szulido": "1985-05-26",
-      "nationality": "Northern olasz",
-      "age": 28,
-      "posztId": 26,
-      "teamId": 17,
-      "jatszottMeccs": 51,
-      "rugottGol": 90,
-      "kiallitas": 24,
-      "sargaLap": 41
-    },
-    {
       "id": 278,
       "first_name": "Hartwell",
       "last_name": "Clawson",
@@ -3345,34 +2715,6 @@
       "rugottGol": 35,
       "kiallitas": 37,
       "sargaLap": 108
-    },
-    {
-      "id": 284,
-      "first_name": "Jud",
-      "last_name": "Yerrill",
-      "szulido": "2003-06-22",
-      "nationality": "Tswana",
-      "age": 21,
-      "posztId": 29,
-      "teamId": 13,
-      "jatszottMeccs": 87,
-      "rugottGol": 147,
-      "kiallitas": 39,
-      "sargaLap": 93
-    },
-    {
-      "id": 285,
-      "first_name": "Claudio",
-      "last_name": "D'Agostini",
-      "szulido": "1979-08-26",
-      "nationality": "Lao",
-      "age": 19,
-      "posztId": 16,
-      "teamId": 11,
-      "jatszottMeccs": 200,
-      "rugottGol": 17,
-      "kiallitas": 1,
-      "sargaLap": 7
     },
     {
       "id": 286,
@@ -3585,20 +2927,6 @@
       "sargaLap": 65
     },
     {
-      "id": 302,
-      "first_name": "Hamel",
-      "last_name": "Pratton",
-      "szulido": "1983-10-04",
-      "nationality": "Romanian",
-      "age": 39,
-      "posztId": 10,
-      "teamId": 11,
-      "jatszottMeccs": 355,
-      "rugottGol": 148,
-      "kiallitas": 35,
-      "sargaLap": 2
-    },
-    {
       "id": 303,
       "first_name": "Chad",
       "last_name": "Ardy",
@@ -3625,20 +2953,6 @@
       "rugottGol": 129,
       "kiallitas": 21,
       "sargaLap": 114
-    },
-    {
-      "id": 305,
-      "first_name": "Arin",
-      "last_name": "Sinott",
-      "szulido": "1975-07-08",
-      "nationality": "Azeri",
-      "age": 29,
-      "posztId": 22,
-      "teamId": 17,
-      "jatszottMeccs": 374,
-      "rugottGol": 76,
-      "kiallitas": 0,
-      "sargaLap": 47
     },
     {
       "id": 306,
@@ -3907,20 +3221,6 @@
       "sargaLap": 111
     },
     {
-      "id": 332,
-      "first_name": "Mano",
-      "last_name": "Reinbech",
-      "szulido": "2005-09-18",
-      "nationality": "French",
-      "age": 33,
-      "posztId": 27,
-      "teamId": 13,
-      "jatszottMeccs": 154,
-      "rugottGol": 6,
-      "kiallitas": 12,
-      "sargaLap": 22
-    },
-    {
       "id": 333,
       "first_name": "Nikolos",
       "last_name": "Bailes",
@@ -3991,20 +3291,6 @@
       "sargaLap": 20
     },
     {
-      "id": 338,
-      "first_name": "Rockie",
-      "last_name": "Whimpenny",
-      "szulido": "1998-01-05",
-      "nationality": "Malagasy",
-      "age": 25,
-      "posztId": 7,
-      "teamId": 11,
-      "jatszottMeccs": 162,
-      "rugottGol": 55,
-      "kiallitas": 37,
-      "sargaLap": 64
-    },
-    {
       "id": 339,
       "first_name": "Emelen",
       "last_name": "Arlt",
@@ -4045,20 +3331,6 @@
       "rugottGol": 75,
       "kiallitas": 28,
       "sargaLap": 29
-    },
-    {
-      "id": 342,
-      "first_name": "Brit",
-      "last_name": "Skym",
-      "szulido": "1989-05-30",
-      "nationality": "Fijian",
-      "age": 23,
-      "posztId": 30,
-      "teamId": 13,
-      "jatszottMeccs": 79,
-      "rugottGol": 63,
-      "kiallitas": 9,
-      "sargaLap": 50
     },
     {
       "id": 343,
@@ -4201,20 +3473,6 @@
       "sargaLap": 89
     },
     {
-      "id": 355,
-      "first_name": "Pebrook",
-      "last_name": "Bendare",
-      "szulido": "1991-12-31",
-      "nationality": "Korean",
-      "age": 30,
-      "posztId": 26,
-      "teamId": 17,
-      "jatszottMeccs": 229,
-      "rugottGol": 2,
-      "kiallitas": 16,
-      "sargaLap": 120
-    },
-    {
       "id": 356,
       "first_name": "Raleigh",
       "last_name": "Whitecross",
@@ -4283,20 +3541,6 @@
       "rugottGol": 109,
       "kiallitas": 37,
       "sargaLap": 21
-    },
-    {
-      "id": 362,
-      "first_name": "Whitaker",
-      "last_name": "Van Daalen",
-      "szulido": "2001-04-22",
-      "nationality": "Swedish",
-      "age": 40,
-      "posztId": 19,
-      "teamId": 11,
-      "jatszottMeccs": 301,
-      "rugottGol": 45,
-      "kiallitas": 35,
-      "sargaLap": 119
     },
     {
       "id": 363,
@@ -4383,20 +3627,6 @@
       "sargaLap": 107
     },
     {
-      "id": 369,
-      "first_name": "Elmer",
-      "last_name": "Tesmond",
-      "szulido": "1978-04-01",
-      "nationality": "Filipino",
-      "age": 15,
-      "posztId": 22,
-      "teamId": 11,
-      "jatszottMeccs": 180,
-      "rugottGol": 48,
-      "kiallitas": 22,
-      "sargaLap": 75
-    },
-    {
       "id": 370,
       "first_name": "Matteo",
       "last_name": "Duckering",
@@ -4481,34 +3711,6 @@
       "sargaLap": 12
     },
     {
-      "id": 379,
-      "first_name": "Orren",
-      "last_name": "Bratley",
-      "szulido": "2000-02-24",
-      "nationality": "Swedish",
-      "age": 18,
-      "posztId": 19,
-      "teamId": 11,
-      "jatszottMeccs": 249,
-      "rugottGol": 9,
-      "kiallitas": 0,
-      "sargaLap": 4
-    },
-    {
-      "id": 380,
-      "first_name": "Garwin",
-      "last_name": "Blase",
-      "szulido": "1996-03-16",
-      "nationality": "Croatian",
-      "age": 18,
-      "posztId": 19,
-      "teamId": 13,
-      "jatszottMeccs": 271,
-      "rugottGol": 44,
-      "kiallitas": 21,
-      "sargaLap": 69
-    },
-    {
       "id": 381,
       "first_name": "Hamish",
       "last_name": "Lamdin",
@@ -4523,20 +3725,6 @@
       "sargaLap": 31
     },
     {
-      "id": 382,
-      "first_name": "Karlis",
-      "last_name": "Kirlin",
-      "szulido": "1978-10-04",
-      "nationality": "New Zealand Sign Language",
-      "age": 36,
-      "posztId": 11,
-      "teamId": 13,
-      "jatszottMeccs": 183,
-      "rugottGol": 51,
-      "kiallitas": 36,
-      "sargaLap": 83
-    },
-    {
       "id": 383,
       "first_name": "Edgard",
       "last_name": "Wittrington",
@@ -4549,20 +3737,6 @@
       "rugottGol": 44,
       "kiallitas": 27,
       "sargaLap": 31
-    },
-    {
-      "id": 384,
-      "first_name": "Maximilianus",
-      "last_name": "Fitzroy",
-      "szulido": "1996-05-20",
-      "nationality": "Irish Gaelic",
-      "age": 28,
-      "posztId": 6,
-      "teamId": 17,
-      "jatszottMeccs": 31,
-      "rugottGol": 19,
-      "kiallitas": 9,
-      "sargaLap": 43
     },
     {
       "id": 385,
@@ -4773,20 +3947,6 @@
       "rugottGol": 31,
       "kiallitas": 31,
       "sargaLap": 23
-    },
-    {
-      "id": 401,
-      "first_name": "Szőcei",
-      "last_name": "Zoltán",
-      "szulido": "1972.11.22",
-      "nationality": "magyar",
-      "age": 48,
-      "posztId": 2,
-      "teamId": 26,
-      "jatszottMeccs": 210,
-      "rugottGol": 120,
-      "kiallitas": 3,
-      "sargaLap": 34
     }
   ],
   "managers": [
@@ -5285,19 +4445,19 @@
     {
       "id": 1,
       "name": "Inter",
-      "country": "Magyarország",
-      "city": "Muaralabuh",
+      "country": "Italy",
+      "city": "Milano",
       "bajnok": 20,
       "kupa": 19,
       "ertek": 4438353,
       "color1": "primary",
-      "color2": "success"
+      "color2": "dark"
     },
     {
       "id": 2,
       "name": "Steaua",
       "country": "Románia",
-      "city": "Vaudreuil-Dorion",
+      "city": "Bukarest",
       "bajnok": 12,
       "kupa": 5,
       "ertek": 4303617,
@@ -5307,7 +4467,7 @@
     {
       "id": 3,
       "name": "MLS All-Stars",
-      "country": "Dánia",
+      "country": "United States",
       "city": "San Luis",
       "bajnok": 7,
       "kupa": 5,
@@ -5318,7 +4478,7 @@
     {
       "id": 4,
       "name": "Minneapolis City",
-      "country": "Dánia",
+      "country": "United States",
       "city": "Hamilton",
       "bajnok": 1,
       "kupa": 5,
@@ -5329,7 +4489,7 @@
     {
       "id": 5,
       "name": "Minnesota United",
-      "country": "Olaszország",
+      "country": "United States",
       "city": "Chubek",
       "bajnok": 6,
       "kupa": 1,
@@ -5340,90 +4500,68 @@
     {
       "id": 6,
       "name": "Atlético Madrid",
-      "country": "Argentina",
-      "city": "Nakło nad Notecią",
+      "country": "Spain",
+      "city": "Madrid",
       "bajnok": 9,
       "kupa": 16,
       "ertek": 3527687,
-      "color1": "success",
+      "color1": "danger",
       "color2": "light"
     },
     {
       "id": 7,
       "name": "Borussia Dortmund",
-      "country": "Argentina",
-      "city": "Mingfeng",
+      "country": "Deutchland",
+      "city": "Dortmund",
       "bajnok": 6,
       "kupa": 11,
       "ertek": 1928542,
-      "color1": "primary",
+      "color1": "warning",
       "color2": "dark"
     },
     {
       "id": 8,
       "name": "Schalke 04",
-      "country": "Románia",
-      "city": "Luocheng",
+      "country": "Deutchland",
+      "city": "Gelsenkirchen",
       "bajnok": 13,
       "kupa": 0,
       "ertek": 1208906,
       "color1": "light",
-      "color2": "warning"
+      "color2": "primary"
     },
     {
       "id": 9,
       "name": "FC Barcelona",
-      "country": "Hollandia",
-      "city": "Boston",
-      "bajnok": 12,
-      "kupa": 2,
+      "country": "Spain",
+      "city": "Barcelona",
+      "bajnok": 20,
+      "kupa": 20,
       "ertek": 3317150,
-      "color1": "dark",
-      "color2": "light"
+      "color1": "primary",
+      "color2": "danger"
     },
     {
       "id": 10,
       "name": "Haladás",
       "country": "Magyarország",
-      "city": "Berlín",
+      "city": "Szombathely",
       "bajnok": 0,
       "kupa": 12,
       "ertek": 959992,
-      "color1": "info",
-      "color2": "primary"
-    },
-    {
-      "id": 11,
-      "name": "Schalke 04",
-      "country": "Dánia",
-      "city": "Bošnjaci",
-      "bajnok": 18,
-      "kupa": 2,
-      "ertek": 2206869,
-      "color1": "danger",
-      "color2": "warning"
-    },
-    {
-      "id": 13,
-      "name": "Argentína",
-      "country": "Spanyolország",
-      "city": "Jaworzynka",
-      "bajnok": 7,
-      "kupa": 22,
-      "ertek": 3598484,
-      "color1": "dark",
-      "color2": "danger"
+      "color1": "success",
+      "color2": "light"
     },
     {
       "id": 14,
       "name": "AC Milan",
-      "country": "Románia",
-      "city": "Xicun",
+      "country": "Italy",
+      "city": "Milano",
       "bajnok": 1,
       "kupa": 14,
       "ertek": 741785,
-      "color1": "success",
-      "color2": "light"
+      "color1": "danger",
+      "color2": "dark"
     },
     {
       "id": 15,
@@ -5439,24 +4577,13 @@
     {
       "id": 16,
       "name": "Liverpool",
-      "country": "Brazília",
-      "city": "Abucay",
+      "country": "England",
+      "city": "Liverpool",
       "bajnok": 13,
       "kupa": 9,
       "ertek": 3752652,
-      "color1": "primary",
-      "color2": "light"
-    },
-    {
-      "id": 17,
-      "name": "Inter",
-      "country": "Hollandia",
-      "city": "Ban Takhun",
-      "bajnok": 18,
-      "kupa": 6,
-      "ertek": 2300241,
-      "color1": "primary",
-      "color2": "success"
+      "color1": "danger",
+      "color2": "danger"
     },
     {
       "id": 18,
@@ -5481,47 +4608,25 @@
       "color2": "light"
     },
     {
-      "id": 20,
-      "name": "AC Milan",
-      "country": "Hollandia",
-      "city": "Mendoza",
-      "bajnok": 8,
-      "kupa": 9,
-      "ertek": 1270675,
-      "color1": "light",
-      "color2": "info"
-    },
-    {
-      "id": 21,
-      "name": "Inter",
-      "country": "Dánia",
-      "city": "Huzhen",
-      "bajnok": 8,
-      "kupa": 17,
-      "ertek": 4685556,
-      "color1": "primary",
-      "color2": "light"
-    },
-    {
       "id": 22,
       "name": "Norwich",
-      "country": "Németország",
-      "city": "Rizokárpaso",
+      "country": "England",
+      "city": "Norwich",
       "bajnok": 11,
       "kupa": 15,
       "ertek": 4291783,
-      "color1": "light",
-      "color2": "danger"
+      "color1": "success",
+      "color2": "warning"
     },
     {
       "id": 23,
       "name": "Diósgyőr",
-      "country": "Argentina",
-      "city": "Herrera",
+      "country": "HUNGARY",
+      "city": "Miskolc",
       "bajnok": 11,
       "kupa": 23,
       "ertek": 834249,
-      "color1": "secondary",
+      "color1": "light",
       "color2": "danger"
     },
     {
@@ -5536,26 +4641,15 @@
       "color2": "light"
     },
     {
-      "id": 26,
-      "name": "Győri ETO",
-      "country": "Spanyolország",
-      "city": "Ust’-Ulagan",
-      "bajnok": 3,
-      "kupa": 20,
-      "ertek": 47435,
-      "color1": "success",
-      "color2": "danger"
-    },
-    {
       "id": 27,
-      "name": "Minnesota United",
-      "country": "Dánia",
-      "city": "Bardaï",
-      "bajnok": 1,
-      "kupa": 18,
+      "name": "Győri ETO FC",
+      "country": "HUNGARY",
+      "city": "Győr ",
+      "bajnok": 4,
+      "kupa": 4,
       "ertek": 1077437,
-      "color1": "warning",
-      "color2": "primary"
+      "color1": "success",
+      "color2": "light"
     },
     {
       "id": 28,
@@ -5571,24 +4665,24 @@
     {
       "id": 29,
       "name": "Ajax",
-      "country": "Spanyolország",
-      "city": "Laohekou",
-      "bajnok": 3,
+      "country": "Hollandia",
+      "city": "Amszterdam",
+      "bajnok": 30,
       "kupa": 21,
       "ertek": 4135194,
       "color1": "danger",
-      "color2": "success"
+      "color2": "light"
     },
     {
       "id": 30,
       "name": "Róma",
-      "country": "Dánia",
-      "city": "Kitamilo",
+      "country": "Italy",
+      "city": "Roma ",
       "bajnok": 9,
       "kupa": 12,
       "ertek": 4322684,
-      "color1": "info",
-      "color2": "primary"
+      "color1": "danger",
+      "color2": "light"
     },
     {
       "id": 31,

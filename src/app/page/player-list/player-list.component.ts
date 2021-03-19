@@ -20,8 +20,9 @@ export class PlayerListComponent implements OnInit {
    playerfilter:{count:number}={count:0}
   
  playerList$:BehaviorSubject<Player[]> | Observable<Player[]>=this.playerService.PlayList$.pipe(
-   tap(play=>this.teamsCount=play.filter(x=>x.teamId>0).length),
     tap(play=>this.playerCount=play.length),
+  tap(play=>this.teamsCount=play.filter(x=>x.teamId>0).length),
+   
     tap(playe=>this.playerfilter.count=playe.length), 
 
  
@@ -39,7 +40,7 @@ onColumnSelect(key:string):void{
   this.irany=!this.irany;
 }
 
-filterKey: string = 'teamId';
+filterKey: string = 'first_name';
 filterKeys: string[] = Object.keys(new Player());
 
 

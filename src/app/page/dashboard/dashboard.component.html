@@ -12,7 +12,9 @@
                 <p class="card-text">A játékosok száma:
                     <span class="szam">
                         {{pcount}} fő
+                        proba:{{proba}}
                     </span>
+
                 </p>
                 <p class="card-text">A játékosok átlagéletkora:
                     <span class="szam">
@@ -26,8 +28,8 @@
             <img src="../../../assets/klopkicsi.jpg" class="card-img-top" alt="Klop">
             <div class="card-body">
                 <h5 class="card-title">Manager adatok</h5>
-                <p class="card-text">A managerek száma: <span placement="right" [ngbTooltip]="managerFirstName"
-                        container="body" class="szam">
+                <p class="card-text">A managerek száma: <span placement="right" [ngbPopover]="managerFirstName"
+                        triggers="mouseenter:mouseleave" popoverTitle="Ők a managerek:" container="body" class="szam">
                         {{mcount}} fő
                     </span></p>
 
@@ -49,7 +51,8 @@
                     </span>
                 </p>
                 <p class="card-text">Magyar csapatok száma:
-                    <span class="szam" placement="top" [ngbTooltip]="magyarcsapatok" container="body">
+                    <span class="szam" placement="top" [ngbPopover]="magyarcsapatok" triggers="mouseenter:mouseleave"
+                        popoverTitle="Ezek a magyar csapatok:" container="body">
                         {{magyarteam}} team
                     </span>
                 </p>

@@ -19,6 +19,7 @@ export class PlayerListComponent implements OnInit {
   playerAgeAvg:number=0;
    playerfilter:{count:number}={count:0}
   
+  
  playerList$:BehaviorSubject<Player[]> | Observable<Player[]>=this.playerService.PlayList$.pipe(
    tap(play=>this.teamsCount=play.filter(x=>x.teamId>0).length),
     tap(play=>this.playerCount=play.length),

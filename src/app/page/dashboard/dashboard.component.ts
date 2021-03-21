@@ -3,6 +3,7 @@ import { combineLatest, Subscription } from 'rxjs';
 import { PlayerService } from '../../service/player.service';
 import { TeamService } from '../../service/team.service';
 import { ManagerService } from '../../service/manager.service';
+import {tap, map} from "rxjs/operators";
 
 @Component({
   selector: 'app-dashboard',
@@ -29,6 +30,8 @@ combinatedSubscription: Subscription = new Subscription();
   managerFirstName:any=[];
   managerLastName:any=[];
   magyarcsapatok:any=[] ;
+  jatekoscsapata:string='';
+  proba:any;
 
 
 
@@ -53,6 +56,11 @@ combinatedSubscription: Subscription = new Subscription();
          this.magyarteam= (data[4].filter( hun => hun.country==='Magyarország').length);
          this.managerFirstName=(data[1].map(ite=>`${ite.first_name} ${ite.last_name}`));
          this.magyarcsapatok=(data[4].filter(csapat=>csapat.country==='Magyarország').map(a=>a.name));
+        this.proba=(data[0].filter(i=>i.id===100).map(s=>s.teamId)[0]);
+        this.jatekoscsapata=(data[4].filter(g=>g.id===this.proba).map(g=>g.name)[0])
+        console.log(this.jatekoscsapata);
+       // this.jatekoscsapata=(data[4].filter(u=>u.id===
+
         //  this.managerLastName=(data[1].map(ite=>ite.last_name));
         //  this.managerek=`${this.managerFirstName} ${this.managerLastName}`
 
@@ -89,6 +97,7 @@ combinatedSubscription: Subscription = new Subscription();
     this.playerService.getAllsum();
 
     this.managerService.getAllsum();
+    
 
 
   }

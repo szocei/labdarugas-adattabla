@@ -26,9 +26,12 @@
             <img src="../../../assets/klopkicsi.jpg" class="card-img-top" alt="Klop">
             <div class="card-body">
                 <h5 class="card-title">Manager adatok</h5>
-                <p class="card-text">A managerek száma: <span class="szam">
+                <p class="card-text">A managerek száma: <span placement="right" [ngbTooltip]="managerFirstName"
+                        container="body" class="szam">
                         {{mcount}} fő
                     </span></p>
+
+
                 <p class="card-text">A managerek átlagéletkora:
                     <span class="szam">
                         {{mavg}} év
@@ -46,7 +49,7 @@
                     </span>
                 </p>
                 <p class="card-text">Magyar csapatok száma:
-                    <span class="szam">
+                    <span class="szam" placement="top" [ngbTooltip]="magyarcsapatok" container="body">
                         {{magyarteam}} team
                     </span>
                 </p>

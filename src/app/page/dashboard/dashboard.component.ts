@@ -26,6 +26,10 @@ combinatedSubscription: Subscription = new Subscription();
   pszum:number=0;
   mszum:number=0;
   magyarteam:number=0;
+  managerFirstName:any=[];
+  managerLastName:any=[];
+  magyarcsapatok:any=[] ;
+
 
 
   ngOnInit(): void {
@@ -47,6 +51,12 @@ combinatedSubscription: Subscription = new Subscription();
          this.pavg=parseInt(''+this.pszum*100/this.pcount)/100;
          this.mavg=parseInt(''+this.mszum*100/this.mcount)/100;
          this.magyarteam= (data[4].filter( hun => hun.country==='Magyarország').length);
+         this.managerFirstName=(data[1].map(ite=>`${ite.first_name} ${ite.last_name}`));
+         this.magyarcsapatok=(data[4].filter(csapat=>csapat.country==='Magyarország').map(a=>a.name));
+        //  this.managerLastName=(data[1].map(ite=>ite.last_name));
+        //  this.managerek=`${this.managerFirstName} ${this.managerLastName}`
+
+
         
         // this.cards[2].content = String(data[2].filter(o => o.status !== 'paid').length);
         // this.cards[3].content = String(data[3].filter(o => o.status !== 'paid').

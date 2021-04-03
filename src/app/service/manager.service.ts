@@ -8,7 +8,7 @@ import { Manager } from '../model/manager';
 })
 export class ManagerService {
 
-managerUrl:string=`http://localhost:3000/managers`;
+managerUrl:string=`https://github.com/szocei/szocei.github.io/blob/db.json/managers`;
 
   constructor(
     private http:HttpClient,

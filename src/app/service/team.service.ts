@@ -8,7 +8,7 @@ import { Team } from '../model/team';
 })
 export class TeamService {
 
- teamUrl:string=`http://localhost:3000/teams`;
+ teamUrl:string=`https://github.com/szocei/szocei.github.io/blob/db.json/teams`;
 
   constructor(
     private http:HttpClient,

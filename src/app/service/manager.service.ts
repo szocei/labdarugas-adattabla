@@ -8,7 +8,7 @@ import { Manager } from '../model/manager';
 })
 export class ManagerService {
 
-managerUrl:string=`https://github.com/szocei/szocei.github.io/blob/[main|master]/db.json/managers`;
+managerUrl:string=`https://my-json-server.typicode.com/szocei/szocei.github.io/managers`;
 
   constructor(
     private http:HttpClient,

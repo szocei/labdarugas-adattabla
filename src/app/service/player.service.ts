@@ -8,7 +8,7 @@ import { Player } from '../model/player';
 })
 export class PlayerService {
 
-  playerUrl: string = `https://github.com/szocei/szocei.github.io/blob/[main|master]/db.json/pla`;
+  playerUrl: string = `https://my-json-server.typicode.com/szocei/szocei.github.io/pla`;
   PlayList$: BehaviorSubject<Player[]> = new BehaviorSubject<Player[]>([]);
 
   constructor(

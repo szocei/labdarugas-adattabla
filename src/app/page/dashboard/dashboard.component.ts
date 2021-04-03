@@ -35,7 +35,7 @@ combinatedSubscription: Subscription = new Subscription();
       this.playerService.getAllsum(),
       this.managerService.getAllsum(),
       this.teamService.teamList$,
-      this.teamService.getAllsum(),
+     // this.teamService.getAllsum(),
 
     ]).subscribe(
       data => {

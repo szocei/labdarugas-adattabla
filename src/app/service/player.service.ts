@@ -8,7 +8,7 @@ import { Player } from '../model/player';
 })
 export class PlayerService {
 
-  playerUrl: string = `http://localhost:3000/pla`;
+  playerUrl: string = `https://github.com/szocei/szocei.github.io/blob/[main|master]/db.json/pla`;
   PlayList$: BehaviorSubject<Player[]> = new BehaviorSubject<Player[]>([]);
 
   constructor(

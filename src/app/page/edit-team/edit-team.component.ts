@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { Team } from 'src/app/model/team';
 import { TeamService } from 'src/app/service/team.service';
@@ -14,13 +14,25 @@ import { TeamService } from 'src/app/service/team.service';
 })
 export class EditTeamComponent implements OnInit {
 
-   team$: Observable<Team> = this.activatedRoute.params.pipe(
-    switchMap( params => this.teamService.get(params.id) )
+  //  team$: Observable<Team | undefined> = this.activatedRoute.params.pipe(
+  //   switchMap( params => this.teamService.get(params.id) )
+    
+  // );
+
+ team$: Observable<Team | undefined> = this.activatedRoute.params.pipe(
+    switchMap( params => {
+      if (Number(params.id) === 0) {
+        return of(new Team());
+      }
+
+      return this.teamService.get(Number(params.id));
+    })
   );
+
 
   constructor(
       private activatedRoute: ActivatedRoute,
-    private teamService: TeamService,
+    public teamService: TeamService,
     private router: Router,
   ) { }
 
